@@ -2,7 +2,8 @@ a {
     cursor: pointer;
 }
 body {
-    background-color: #ecefef;
+    #background-color: #ecefef;
+    background-color: #4f8cef
     padding-top:110px;
 }
 #nc-loading .logo, #nc-loading .loading {
