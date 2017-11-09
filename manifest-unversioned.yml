@@ -6,7 +6,6 @@ env:
     SPRING_PROFILES_ACTIVE: cloud
     JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
 applications:
-- name: webtrader
-  random-route: true
+- name: webjo
   path: libs/web-${version}.jar
   services: [ discovery-service, circuit-breaker-dashboard, config-server, zipkinRabbit ]
